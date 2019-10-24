@@ -1,0 +1,18 @@
+# A basic redirect rule
+[[redirects]]
+  from = "https://saso94.github.com"
+  to = "https://sebastianotrunfio.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.sebastianotrunfio.com"
+  to = "https://sebastianotrunfio.com"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "https://www.sebastiano.netlify.com"
+  to = "https://sebastianotrunfio.com"
+  status = 301
+  force = true  
