@@ -16,3 +16,11 @@
   to = "https://sebastianotrunfio.com"
   status = 301
   force = true  
+  
+ [[headers]]
+  #  Multi-value headers are expressed with multi-line strings
+	cache-control = '''
+	max-age=1,
+	no-cache,
+	no-store,
+	must-revalidate'''
